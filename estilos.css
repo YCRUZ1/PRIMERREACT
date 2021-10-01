@@ -38,3 +38,20 @@ ul{
 
 .secundarybutton:hover{
     box-shadow: 2px 3px rgb(136, 91, 33);
+
+    }
+
+    .busqueda{
+        background-color: white;
+        border :1px slategray;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .busqueda > input {
+        outline: none;
+        border: 0px;
+    }
+    .busqueda:focus-within{
+        border: 1px solid coral;
+    }
