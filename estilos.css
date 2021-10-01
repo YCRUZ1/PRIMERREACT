@@ -8,3 +8,33 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+
+.button{
+
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.mainbutton
+{
+    background-color:bisque;
+  
+}
+
+.mainbutton:hover{
+    box-shadow: 2px 3px rgb(136, 91, 33);
+}
+
+.secundarybutton{
+
+    background-color:rgb(233, 167, 86);
+  
+}
+
+.secundarybutton:hover{
+    box-shadow: 2px 3px rgb(136, 91, 33);
