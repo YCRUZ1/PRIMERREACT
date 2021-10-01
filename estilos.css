@@ -7,8 +7,10 @@ ul{
 .navbar{
     display: flex;
     justify-content: space-between;
+
 }
 
 .logo{
     height: 50px;
+
 }
