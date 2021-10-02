@@ -42,9 +42,9 @@ ul{
     }
 
     .busqueda{
-        background-color: white;
-        border :1px slategray;
-        padding: 4px;
+        
+        border :1px sienna;
+        padding: 3px;
         border-radius: 10px;
     }
 
