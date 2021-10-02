@@ -4,9 +4,24 @@ ul{
     margin: 2px;
 }
 
+body{
+    margin: 0px ;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+    background-color:rgb(255, 244, 244);
+    border-bottom: 1px rgb(179, 148, 109);
+}
+
+.navbar > li{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 50px;
 }
 
 .button{
@@ -42,9 +57,11 @@ ul{
 
     .busqueda{
         
-        border :1px sienna;
-        padding: 3px;
+        background-color: white;
+        border :1px solid rgb(19, 8, 2);
+        padding: 4px 16px;
         border-radius: 10px;
+        
     }
 
     .busqueda > input {
@@ -55,3 +72,6 @@ ul{
         border: 1px solid coral;
     }
 
+    .iconobusqueda:hover{
+        color: coral;
+    }
