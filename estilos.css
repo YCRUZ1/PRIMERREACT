@@ -38,7 +38,6 @@ ul{
 
 .secundarybutton:hover{
     box-shadow: 2px 3px rgb(136, 91, 33);
-
     }
 
     .busqueda{
@@ -55,3 +54,4 @@ ul{
     .busqueda:focus-within{
         border: 1px solid coral;
     }
+
